@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPUTER TECH SOLUTION</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+<style>
+    /* CSS Reset */
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/workstation-336369_1280.jpg');
+        font-family: 'Caveat', cursive;
+        }
+
+    .left { 
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid red; */
+    }
+
+    .left img {
+        width: 137px;
+    }
+
+    .left div {
+        text-align: center;
+        color: rgb(255, 253, 253);
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .mid {
+        display: block;
+        width: 42%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 28px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 9px;
+        border: 2px rgb(255, 255, 255) solid;
+        border-radius: 6px;
+        font-size: 13px;
+        cursor: pointer;
+        font-family: 'Caveat', cursive;
+    }
+
+    .btn:hover {
+        background-color: #464040;
+    }
+
+    .container {
+        /* border: 2px solid black; */
+        margin: -32px -139px;
+        padding: 41px;
+        width: 73%;
+        border-radius: 18px;
+        float: right;
+    }
+
+    .form-group input {
+        font-family: 'Caveat', cursive;
+        text-align: center;
+        display: block;
+        width: 34%;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 5px auto;
+    }
+
+    .container h1,
+    h2 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 37%;
+        margin: 12px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/surprised-1184889_1280.png" alt="">
+            <div>COMPUTER TECH </div>
+            <div>SOLUTION</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Email us</button>
+            <button class="btn">Call Now</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Fast, Affordable Laptop, Desktop Repair</h1>
+        <h2>Ask me</h2>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your mobile number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your email-id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="What is your question?">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
